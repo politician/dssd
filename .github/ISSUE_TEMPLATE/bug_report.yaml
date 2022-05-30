@@ -1,4 +1,3 @@
----
 name: Bug report
 description: Create a report to help us improve this project
 labels: [bug]
@@ -50,13 +49,13 @@ body:
     attributes:
       label: Environment
       description: |
-        Any relevant details about the version of this project you are using (OS, browser, etc.)
+        Any relevant details about the version of this project you are using, OS, browser, etc.
 
   - type: textarea
     attributes:
       label: Possible fix
       description: |
-        If you can think of any possible solution to fix the bug. Please be technical if you can.
+        You can include any possible solution you can think of to fix the bug. You can be technical.
 
   - type: checkboxes
     id: terms
