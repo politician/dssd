@@ -62,9 +62,8 @@ body:
     id: terms
     attributes:
       label: Checklist
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/fluxcd/.github/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I have searched for a solution to this problem in the [existing issues](../issues).
           required: true
-        - label: I agree to follow this project's [Code of Conduct](../../docs/CODE_OF_CONDUCT.md)
+        - label: I agree to follow this project's [Code of Conduct](../../blob/main/docs/CODE_OF_CONDUCT.md)
           required: true
