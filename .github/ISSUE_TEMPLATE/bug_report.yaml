@@ -2,13 +2,11 @@
 name: Bug report
 description: Create a report to help us improve this project
 labels: [bug]
-title: "[Bug]: "
 body:
   - type: markdown
     attributes:
       value: |
-        **Before** opening a new bug report, please search for relevant 
-        keywords in the existing issues so you do not submit a duplicate.
+        **Before** opening a new bug report, please search for relevant keywords in the [existing issues](../issues) so you do not submit a duplicate report.
 
   - type: textarea
     validations:
@@ -39,13 +37,7 @@ body:
       description: |
         Steps to reproduce the problem.
       placeholder: |
-        <!---
-        Please include as much details as possible so we can reproduce the
-        bug and fix it quickly - This is very important
-        --->
-        1. 
-        2. 
-        3.
+        Please include as much details as possible so we can reproduce the bug and fix it quickly.
 
   # - type: input
   #   validations:
@@ -69,11 +61,10 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
+      label: Checklist
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/fluxcd/.github/blob/main/CODE_OF_CONDUCT.md)
       options:
-        - label: I have searched for a solution in the existing issues.
+        - label: I have searched for a solution to this problem in the [existing issues](../issues).
           required: true
-          
-        - label: I agree to follow this project's [Code of Conduct](/docs/CODE_OF_CONDUCT.md)
+        - label: I agree to follow this project's [Code of Conduct](../../docs/CODE_OF_CONDUCT.md)
           required: true
