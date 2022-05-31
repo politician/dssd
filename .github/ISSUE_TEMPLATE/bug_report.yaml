@@ -8,6 +8,7 @@ body:
         **Before** opening a new bug report, please search for relevant keywords in the [existing issues](../issues) so you do not submit a duplicate report.
 
   - type: textarea
+    id: summary
     validations:
       required: true
     attributes:
